@@ -1,1 +1,38 @@
 /* BIOSUMA Website - Hoja de estilos */
+/* ==========================================
+   BIOSUMA WEBSITE
+   Hoja de estilos principal
+========================================== */
+
+/* RESET */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* VARIABLES */
+
+:root{
+
+    --primary:#1E8E5A;
+    --secondary:#145A3D;
+    --light:#F5FBF8;
+    --dark:#1E293B;
+    --gray:#64748B;
+    --white:#FFFFFF;
+
+}
+
+/* BODY */
+
+body{
+
+    font-family:'Montserrat',sans-serif;
+
+    background:var(--light);
+
+    color:var(--dark);
+
+}
